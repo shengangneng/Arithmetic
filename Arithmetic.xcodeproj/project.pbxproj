@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD2ABB592A620D0D0037F153 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABB582A620D0D0037F153 /* AppDelegate.swift */; };
+		CD2ABB5B2A620D0D0037F153 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABB5A2A620D0D0037F153 /* SceneDelegate.swift */; };
+		CD2ABB5D2A620D0D0037F153 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABB5C2A620D0D0037F153 /* ViewController.swift */; };
+		CD2ABB602A620D0D0037F153 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2ABB5E2A620D0D0037F153 /* Main.storyboard */; };
+		CD2ABB622A620D0E0037F153 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD2ABB612A620D0E0037F153 /* Assets.xcassets */; };
+		CD2ABB652A620D0E0037F153 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2ABB632A620D0E0037F153 /* LaunchScreen.storyboard */; };
+		CD2ABB6F2A620D230037F153 /* TenSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABB6D2A620D230037F153 /* TenSort.swift */; };
+		CD2ABB722A621D860037F153 /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABB712A621D860037F153 /* BubbleSort.swift */; };
+		CD2ABB742A621F5E0037F153 /* SelectSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABB732A621F5E0037F153 /* SelectSort.swift */; };
+		CD2ABB762A6220100037F153 /* SortProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABB752A6220100037F153 /* SortProtocol.swift */; };
+		CD2ABB7C2A622A780037F153 /* InsertSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABB7B2A622A780037F153 /* InsertSort.swift */; };
+		CD2ABB7E2A6239720037F153 /* ShellSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABB7D2A6239720037F153 /* ShellSort.swift */; };
+		CD2ABB832A624F7C0037F153 /* _88_CombineSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABB822A624F7C0037F153 /* _88_CombineSortedArray.swift */; };
+		CD2ABB852A6256A10037F153 /* _169_MostNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABB842A6256A10037F153 /* _169_MostNumber.swift */; };
+		CD2ABB872A6264BA0037F153 /* _242_DiffLocNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABB862A6264BA0037F153 /* _242_DiffLocNumber.swift */; };
+		CD2ABB892A627DA30037F153 /* _268_MissionNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABB882A627DA30037F153 /* _268_MissionNumber.swift */; };
+		CD2ABB8B2A6280F00037F153 /* _349_InterOfTwoArr.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABB8A2A6280F00037F153 /* _349_InterOfTwoArr.swift */; };
+		CD2ABB8D2A6284CF0037F153 /* _350_InterOfTwoArr2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABB8C2A6284CF0037F153 /* _350_InterOfTwoArr2.swift */; };
+		CD2ABB8F2A6287110037F153 /* _389_FindDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABB8E2A6287110037F153 /* _389_FindDifference.swift */; };
+		CD2ABB912A628A8A0037F153 /* _414_ThirdMaxNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABB902A628A8A0037F153 /* _414_ThirdMaxNumber.swift */; };
+		CD2ABB932A628E3A0037F153 /* _455_AssignCookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABB922A628E3A0037F153 /* _455_AssignCookie.swift */; };
+		CD2ABB952A62966E0037F153 /* _506_RelativeRank.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABB942A62966E0037F153 /* _506_RelativeRank.swift */; };
+		CD2ABB972A62A3000037F153 /* _561_ArrayAppart.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABB962A62A3000037F153 /* _561_ArrayAppart.swift */; };
+		CD2ABB992A62A6610037F153 /* _594_LongestSeque.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABB982A62A6610037F153 /* _594_LongestSeque.swift */; };
+		CD2ABB9B2A62ACC50037F153 /* _628_MaxOfThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABB9A2A62ACC50037F153 /* _628_MaxOfThree.swift */; };
+		CD2ABB9D2A62C4010037F153 /* _645_MisMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABB9C2A62C4010037F153 /* _645_MisMatch.swift */; };
+		CD2ABB9F2A62CD120037F153 /* _747_AtLeastTwice.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABB9E2A62CD120037F153 /* _747_AtLeastTwice.swift */; };
+		CD2ABBA12A62D9D00037F153 /* _888_FairCandy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBA02A62D9D00037F153 /* _888_FairCandy.swift */; };
+		CD2ABBA32A62E0150037F153 /* _905_SortByParity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBA22A62E0150037F153 /* _905_SortByParity.swift */; };
+		CD2ABBA52A62E61B0037F153 /* _922_SortByParity2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBA42A62E61B0037F153 /* _922_SortByParity2.swift */; };
+		CD2ABBA82A636EEA0037F153 /* _1_TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBA72A636EEA0037F153 /* _1_TwoSum.swift */; };
+		CD2ABBAA2A63716A0037F153 /* _26_RemoveDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBA92A63716A0037F153 /* _26_RemoveDuplicate.swift */; };
+		CD2ABBAC2A63749D0037F153 /* _27_RemoveItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBAB2A63749D0037F153 /* _27_RemoveItem.swift */; };
+		CD2ABBAE2A6382E20037F153 /* _66_PlusOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBAD2A6382E20037F153 /* _66_PlusOne.swift */; };
+		CD2ABBB02A638F780037F153 /* _121_BestTimeToBuyStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBAF2A638F780037F153 /* _121_BestTimeToBuyStock.swift */; };
+		CD2ABBB22A63926E0037F153 /* _136_SingleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBB12A63926E0037F153 /* _136_SingleNumber.swift */; };
+		CD2ABBB42A639DFB0037F153 /* _219_ContainsDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBB32A639DFB0037F153 /* _219_ContainsDuplicate.swift */; };
+		CD2ABBB62A63A4590037F153 /* _228_SummaryRanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBB52A63A4590037F153 /* _228_SummaryRanges.swift */; };
+		CD2ABBB82A63ACC70037F153 /* _283_MoveZero.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBB72A63ACC70037F153 /* _283_MoveZero.swift */; };
+		CD2ABBBA2A63B0AD0037F153 /* _303_RageSumQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBB92A63B0AD0037F153 /* _303_RageSumQuery.swift */; };
+		CD2ABBBC2A63CCAE0037F153 /* _448_FindMissingNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBBB2A63CCAE0037F153 /* _448_FindMissingNumber.swift */; };
+		CD2ABBBE2A63CFE40037F153 /* _485_MostOnes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBBD2A63CFE40037F153 /* _485_MostOnes.swift */; };
+		CD2ABBC02A63DAF40037F153 /* _495_TimoAttacking.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBBF2A63DAF40037F153 /* _495_TimoAttacking.swift */; };
+		CD2ABBC22A63DD190037F153 /* _496_NextGreatElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBC12A63DD190037F153 /* _496_NextGreatElement.swift */; };
+		CD2ABBC42A63E2E20037F153 /* _500_KeedboardRun.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBC32A63E2E20037F153 /* _500_KeedboardRun.swift */; };
+		CD2ABBC62A63E9EB0037F153 /* _566_Reshape.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBC52A63E9EB0037F153 /* _566_Reshape.swift */; };
+		CD2ABBC92A6407E00037F153 /* _HackerRank_Print.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBC82A6407E00037F153 /* _HackerRank_Print.swift */; };
+		CD2ABBCB2A6418020037F153 /* _HackerRank_TimeFormate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBCA2A6418020037F153 /* _HackerRank_TimeFormate.swift */; };
+		CD2ABBD02A64C9C00037F153 /* _14_LongestPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBCF2A64C9C00037F153 /* _14_LongestPrefix.swift */; };
+		CD2ABBD22A64CE5F0037F153 /* _20_ValidKuoHao.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBD12A64CE5F0037F153 /* _20_ValidKuoHao.swift */; };
+		CD2ABBD42A64D44E0037F153 /* _58_LengthOfLastWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBD32A64D44E0037F153 /* _58_LengthOfLastWord.swift */; };
+		CD2ABBD62A64DC2F0037F153 /* _67_AddBinary.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBD52A64DC2F0037F153 /* _67_AddBinary.swift */; };
+		CD2ABBD82A64F36F0037F153 /* _HackerRank_GradingStudents.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBD72A64F36F0037F153 /* _HackerRank_GradingStudents.swift */; };
+		CD2ABBDA2A64F6F50037F153 /* _HackerRank_CountApplesAndOranges.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBD92A64F6F50037F153 /* _HackerRank_CountApplesAndOranges.swift */; };
+		CD2ABBDC2A64FC8B0037F153 /* _HankerRank_Kangaroo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBDB2A64FC8B0037F153 /* _HankerRank_Kangaroo.swift */; };
+		CD2ABBDE2A6505E60037F153 /* _HackerRank_GetTotalX.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBDD2A6505E60037F153 /* _HackerRank_GetTotalX.swift */; };
+		CD2ABBE02A6518C60037F153 /* _HackerRank_BreakingRecords.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBDF2A6518C60037F153 /* _HackerRank_BreakingRecords.swift */; };
+		CD2ABBE22A651DDA0037F153 /* _HackerRank_Birthday.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBE12A651DDA0037F153 /* _HackerRank_Birthday.swift */; };
+		CD2ABBE42A651F780037F153 /* _HackerRank_DivisibleSumPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBE32A651F780037F153 /* _HackerRank_DivisibleSumPairs.swift */; };
+		CD2ABBE62A65207F0037F153 /* _HackerRank_MigratoryBirds.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBE52A65207F0037F153 /* _HackerRank_MigratoryBirds.swift */; };
+		CD2ABBE82A6522910037F153 /* _HackerRank_DayOfProgrammer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBE72A6522910037F153 /* _HackerRank_DayOfProgrammer.swift */; };
+		CD2ABBEA2A6532A30037F153 /* _HackerRank_BonAppetit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBE92A6532A30037F153 /* _HackerRank_BonAppetit.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD2ABB552A620D0D0037F153 /* Arithmetic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arithmetic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD2ABB582A620D0D0037F153 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD2ABB5A2A620D0D0037F153 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CD2ABB5C2A620D0D0037F153 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD2ABB5F2A620D0D0037F153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD2ABB612A620D0E0037F153 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD2ABB642A620D0E0037F153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD2ABB662A620D0E0037F153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD2ABB6D2A620D230037F153 /* TenSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TenSort.swift; sourceTree = "<group>"; };
+		CD2ABB712A621D860037F153 /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
+		CD2ABB732A621F5E0037F153 /* SelectSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSort.swift; sourceTree = "<group>"; };
+		CD2ABB752A6220100037F153 /* SortProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortProtocol.swift; sourceTree = "<group>"; };
+		CD2ABB7B2A622A780037F153 /* InsertSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertSort.swift; sourceTree = "<group>"; };
+		CD2ABB7D2A6239720037F153 /* ShellSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellSort.swift; sourceTree = "<group>"; };
+		CD2ABB822A624F7C0037F153 /* _88_CombineSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _88_CombineSortedArray.swift; sourceTree = "<group>"; };
+		CD2ABB842A6256A10037F153 /* _169_MostNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _169_MostNumber.swift; sourceTree = "<group>"; };
+		CD2ABB862A6264BA0037F153 /* _242_DiffLocNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _242_DiffLocNumber.swift; sourceTree = "<group>"; };
+		CD2ABB882A627DA30037F153 /* _268_MissionNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _268_MissionNumber.swift; sourceTree = "<group>"; };
+		CD2ABB8A2A6280F00037F153 /* _349_InterOfTwoArr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _349_InterOfTwoArr.swift; sourceTree = "<group>"; };
+		CD2ABB8C2A6284CF0037F153 /* _350_InterOfTwoArr2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _350_InterOfTwoArr2.swift; sourceTree = "<group>"; };
+		CD2ABB8E2A6287110037F153 /* _389_FindDifference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _389_FindDifference.swift; sourceTree = "<group>"; };
+		CD2ABB902A628A8A0037F153 /* _414_ThirdMaxNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _414_ThirdMaxNumber.swift; sourceTree = "<group>"; };
+		CD2ABB922A628E3A0037F153 /* _455_AssignCookie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _455_AssignCookie.swift; sourceTree = "<group>"; };
+		CD2ABB942A62966E0037F153 /* _506_RelativeRank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _506_RelativeRank.swift; sourceTree = "<group>"; };
+		CD2ABB962A62A3000037F153 /* _561_ArrayAppart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _561_ArrayAppart.swift; sourceTree = "<group>"; };
+		CD2ABB982A62A6610037F153 /* _594_LongestSeque.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _594_LongestSeque.swift; sourceTree = "<group>"; };
+		CD2ABB9A2A62ACC50037F153 /* _628_MaxOfThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _628_MaxOfThree.swift; sourceTree = "<group>"; };
+		CD2ABB9C2A62C4010037F153 /* _645_MisMatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _645_MisMatch.swift; sourceTree = "<group>"; };
+		CD2ABB9E2A62CD120037F153 /* _747_AtLeastTwice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _747_AtLeastTwice.swift; sourceTree = "<group>"; };
+		CD2ABBA02A62D9D00037F153 /* _888_FairCandy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _888_FairCandy.swift; sourceTree = "<group>"; };
+		CD2ABBA22A62E0150037F153 /* _905_SortByParity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _905_SortByParity.swift; sourceTree = "<group>"; };
+		CD2ABBA42A62E61B0037F153 /* _922_SortByParity2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _922_SortByParity2.swift; sourceTree = "<group>"; };
+		CD2ABBA72A636EEA0037F153 /* _1_TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _1_TwoSum.swift; sourceTree = "<group>"; };
+		CD2ABBA92A63716A0037F153 /* _26_RemoveDuplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _26_RemoveDuplicate.swift; sourceTree = "<group>"; };
+		CD2ABBAB2A63749D0037F153 /* _27_RemoveItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _27_RemoveItem.swift; sourceTree = "<group>"; };
+		CD2ABBAD2A6382E20037F153 /* _66_PlusOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _66_PlusOne.swift; sourceTree = "<group>"; };
+		CD2ABBAF2A638F780037F153 /* _121_BestTimeToBuyStock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _121_BestTimeToBuyStock.swift; sourceTree = "<group>"; };
+		CD2ABBB12A63926E0037F153 /* _136_SingleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _136_SingleNumber.swift; sourceTree = "<group>"; };
+		CD2ABBB32A639DFB0037F153 /* _219_ContainsDuplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _219_ContainsDuplicate.swift; sourceTree = "<group>"; };
+		CD2ABBB52A63A4590037F153 /* _228_SummaryRanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _228_SummaryRanges.swift; sourceTree = "<group>"; };
+		CD2ABBB72A63ACC70037F153 /* _283_MoveZero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _283_MoveZero.swift; sourceTree = "<group>"; };
+		CD2ABBB92A63B0AD0037F153 /* _303_RageSumQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _303_RageSumQuery.swift; sourceTree = "<group>"; };
+		CD2ABBBB2A63CCAE0037F153 /* _448_FindMissingNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _448_FindMissingNumber.swift; sourceTree = "<group>"; };
+		CD2ABBBD2A63CFE40037F153 /* _485_MostOnes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _485_MostOnes.swift; sourceTree = "<group>"; };
+		CD2ABBBF2A63DAF40037F153 /* _495_TimoAttacking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _495_TimoAttacking.swift; sourceTree = "<group>"; };
+		CD2ABBC12A63DD190037F153 /* _496_NextGreatElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _496_NextGreatElement.swift; sourceTree = "<group>"; };
+		CD2ABBC32A63E2E20037F153 /* _500_KeedboardRun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _500_KeedboardRun.swift; sourceTree = "<group>"; };
+		CD2ABBC52A63E9EB0037F153 /* _566_Reshape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _566_Reshape.swift; sourceTree = "<group>"; };
+		CD2ABBC82A6407E00037F153 /* _HackerRank_Print.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _HackerRank_Print.swift; sourceTree = "<group>"; };
+		CD2ABBCA2A6418020037F153 /* _HackerRank_TimeFormate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _HackerRank_TimeFormate.swift; sourceTree = "<group>"; };
+		CD2ABBCF2A64C9C00037F153 /* _14_LongestPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _14_LongestPrefix.swift; sourceTree = "<group>"; };
+		CD2ABBD12A64CE5F0037F153 /* _20_ValidKuoHao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _20_ValidKuoHao.swift; sourceTree = "<group>"; };
+		CD2ABBD32A64D44E0037F153 /* _58_LengthOfLastWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _58_LengthOfLastWord.swift; sourceTree = "<group>"; };
+		CD2ABBD52A64DC2F0037F153 /* _67_AddBinary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _67_AddBinary.swift; sourceTree = "<group>"; };
+		CD2ABBD72A64F36F0037F153 /* _HackerRank_GradingStudents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _HackerRank_GradingStudents.swift; sourceTree = "<group>"; };
+		CD2ABBD92A64F6F50037F153 /* _HackerRank_CountApplesAndOranges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _HackerRank_CountApplesAndOranges.swift; sourceTree = "<group>"; };
+		CD2ABBDB2A64FC8B0037F153 /* _HankerRank_Kangaroo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _HankerRank_Kangaroo.swift; sourceTree = "<group>"; };
+		CD2ABBDD2A6505E60037F153 /* _HackerRank_GetTotalX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _HackerRank_GetTotalX.swift; sourceTree = "<group>"; };
+		CD2ABBDF2A6518C60037F153 /* _HackerRank_BreakingRecords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _HackerRank_BreakingRecords.swift; sourceTree = "<group>"; };
+		CD2ABBE12A651DDA0037F153 /* _HackerRank_Birthday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _HackerRank_Birthday.swift; sourceTree = "<group>"; };
+		CD2ABBE32A651F780037F153 /* _HackerRank_DivisibleSumPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _HackerRank_DivisibleSumPairs.swift; sourceTree = "<group>"; };
+		CD2ABBE52A65207F0037F153 /* _HackerRank_MigratoryBirds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _HackerRank_MigratoryBirds.swift; sourceTree = "<group>"; };
+		CD2ABBE72A6522910037F153 /* _HackerRank_DayOfProgrammer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _HackerRank_DayOfProgrammer.swift; sourceTree = "<group>"; };
+		CD2ABBE92A6532A30037F153 /* _HackerRank_BonAppetit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _HackerRank_BonAppetit.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD2ABB522A620D0D0037F153 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD2ABB4C2A620D0D0037F153 = {
+			isa = PBXGroup;
+			children = (
+				CD2ABB572A620D0D0037F153 /* Arithmetic */,
+				CD2ABB562A620D0D0037F153 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD2ABB562A620D0D0037F153 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD2ABB552A620D0D0037F153 /* Arithmetic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD2ABB572A620D0D0037F153 /* Arithmetic */ = {
+			isa = PBXGroup;
+			children = (
+				CD2ABB582A620D0D0037F153 /* AppDelegate.swift */,
+				CD2ABB5A2A620D0D0037F153 /* SceneDelegate.swift */,
+				CD2ABB5C2A620D0D0037F153 /* ViewController.swift */,
+				CD2ABBC72A6407C00037F153 /* HackerRank */,
+				CD2ABBCC2A64C8B70037F153 /* String */,
+				CD2ABBA62A636ED40037F153 /* Array */,
+				CD2ABB812A624F540037F153 /* Solution */,
+				CD2ABB6C2A620D230037F153 /* Sorts */,
+				CD2ABB5E2A620D0D0037F153 /* Main.storyboard */,
+				CD2ABB612A620D0E0037F153 /* Assets.xcassets */,
+				CD2ABB632A620D0E0037F153 /* LaunchScreen.storyboard */,
+				CD2ABB662A620D0E0037F153 /* Info.plist */,
+			);
+			path = Arithmetic;
+			sourceTree = "<group>";
+		};
+		CD2ABB6C2A620D230037F153 /* Sorts */ = {
+			isa = PBXGroup;
+			children = (
+				CD2ABB6D2A620D230037F153 /* TenSort.swift */,
+				CD2ABB752A6220100037F153 /* SortProtocol.swift */,
+				CD2ABB712A621D860037F153 /* BubbleSort.swift */,
+				CD2ABB732A621F5E0037F153 /* SelectSort.swift */,
+				CD2ABB7B2A622A780037F153 /* InsertSort.swift */,
+				CD2ABB7D2A6239720037F153 /* ShellSort.swift */,
+			);
+			path = Sorts;
+			sourceTree = "<group>";
+		};
+		CD2ABB812A624F540037F153 /* Solution */ = {
+			isa = PBXGroup;
+			children = (
+				CD2ABB822A624F7C0037F153 /* _88_CombineSortedArray.swift */,
+				CD2ABB842A6256A10037F153 /* _169_MostNumber.swift */,
+				CD2ABB862A6264BA0037F153 /* _242_DiffLocNumber.swift */,
+				CD2ABB882A627DA30037F153 /* _268_MissionNumber.swift */,
+				CD2ABB8A2A6280F00037F153 /* _349_InterOfTwoArr.swift */,
+				CD2ABB8C2A6284CF0037F153 /* _350_InterOfTwoArr2.swift */,
+				CD2ABB8E2A6287110037F153 /* _389_FindDifference.swift */,
+				CD2ABB902A628A8A0037F153 /* _414_ThirdMaxNumber.swift */,
+				CD2ABB922A628E3A0037F153 /* _455_AssignCookie.swift */,
+				CD2ABB942A62966E0037F153 /* _506_RelativeRank.swift */,
+				CD2ABB962A62A3000037F153 /* _561_ArrayAppart.swift */,
+				CD2ABB982A62A6610037F153 /* _594_LongestSeque.swift */,
+				CD2ABB9A2A62ACC50037F153 /* _628_MaxOfThree.swift */,
+				CD2ABB9C2A62C4010037F153 /* _645_MisMatch.swift */,
+				CD2ABB9E2A62CD120037F153 /* _747_AtLeastTwice.swift */,
+				CD2ABBA02A62D9D00037F153 /* _888_FairCandy.swift */,
+				CD2ABBA22A62E0150037F153 /* _905_SortByParity.swift */,
+				CD2ABBA42A62E61B0037F153 /* _922_SortByParity2.swift */,
+			);
+			path = Solution;
+			sourceTree = "<group>";
+		};
+		CD2ABBA62A636ED40037F153 /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				CD2ABBA72A636EEA0037F153 /* _1_TwoSum.swift */,
+				CD2ABBA92A63716A0037F153 /* _26_RemoveDuplicate.swift */,
+				CD2ABBAB2A63749D0037F153 /* _27_RemoveItem.swift */,
+				CD2ABBAD2A6382E20037F153 /* _66_PlusOne.swift */,
+				CD2ABBAF2A638F780037F153 /* _121_BestTimeToBuyStock.swift */,
+				CD2ABBB12A63926E0037F153 /* _136_SingleNumber.swift */,
+				CD2ABBB32A639DFB0037F153 /* _219_ContainsDuplicate.swift */,
+				CD2ABBB52A63A4590037F153 /* _228_SummaryRanges.swift */,
+				CD2ABBB72A63ACC70037F153 /* _283_MoveZero.swift */,
+				CD2ABBB92A63B0AD0037F153 /* _303_RageSumQuery.swift */,
+				CD2ABBBB2A63CCAE0037F153 /* _448_FindMissingNumber.swift */,
+				CD2ABBBD2A63CFE40037F153 /* _485_MostOnes.swift */,
+				CD2ABBBF2A63DAF40037F153 /* _495_TimoAttacking.swift */,
+				CD2ABBC12A63DD190037F153 /* _496_NextGreatElement.swift */,
+				CD2ABBC32A63E2E20037F153 /* _500_KeedboardRun.swift */,
+				CD2ABBC52A63E9EB0037F153 /* _566_Reshape.swift */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		CD2ABBC72A6407C00037F153 /* HackerRank */ = {
+			isa = PBXGroup;
+			children = (
+				CD2ABBC82A6407E00037F153 /* _HackerRank_Print.swift */,
+				CD2ABBCA2A6418020037F153 /* _HackerRank_TimeFormate.swift */,
+				CD2ABBD72A64F36F0037F153 /* _HackerRank_GradingStudents.swift */,
+				CD2ABBD92A64F6F50037F153 /* _HackerRank_CountApplesAndOranges.swift */,
+				CD2ABBDB2A64FC8B0037F153 /* _HankerRank_Kangaroo.swift */,
+				CD2ABBDD2A6505E60037F153 /* _HackerRank_GetTotalX.swift */,
+				CD2ABBDF2A6518C60037F153 /* _HackerRank_BreakingRecords.swift */,
+				CD2ABBE12A651DDA0037F153 /* _HackerRank_Birthday.swift */,
+				CD2ABBE32A651F780037F153 /* _HackerRank_DivisibleSumPairs.swift */,
+				CD2ABBE52A65207F0037F153 /* _HackerRank_MigratoryBirds.swift */,
+				CD2ABBE72A6522910037F153 /* _HackerRank_DayOfProgrammer.swift */,
+				CD2ABBE92A6532A30037F153 /* _HackerRank_BonAppetit.swift */,
+			);
+			path = HackerRank;
+			sourceTree = "<group>";
+		};
+		CD2ABBCC2A64C8B70037F153 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				CD2ABBCF2A64C9C00037F153 /* _14_LongestPrefix.swift */,
+				CD2ABBD12A64CE5F0037F153 /* _20_ValidKuoHao.swift */,
+				CD2ABBD32A64D44E0037F153 /* _58_LengthOfLastWord.swift */,
+				CD2ABBD52A64DC2F0037F153 /* _67_AddBinary.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD2ABB542A620D0D0037F153 /* Arithmetic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD2ABB692A620D0E0037F153 /* Build configuration list for PBXNativeTarget "Arithmetic" */;
+			buildPhases = (
+				CD2ABB512A620D0D0037F153 /* Sources */,
+				CD2ABB522A620D0D0037F153 /* Frameworks */,
+				CD2ABB532A620D0D0037F153 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Arithmetic;
+			productName = Arithmetic;
+			productReference = CD2ABB552A620D0D0037F153 /* Arithmetic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD2ABB4D2A620D0D0037F153 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					CD2ABB542A620D0D0037F153 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = CD2ABB502A620D0D0037F153 /* Build configuration list for PBXProject "Arithmetic" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD2ABB4C2A620D0D0037F153;
+			productRefGroup = CD2ABB562A620D0D0037F153 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD2ABB542A620D0D0037F153 /* Arithmetic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD2ABB532A620D0D0037F153 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD2ABB652A620D0E0037F153 /* LaunchScreen.storyboard in Resources */,
+				CD2ABB622A620D0E0037F153 /* Assets.xcassets in Resources */,
+				CD2ABB602A620D0D0037F153 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD2ABB512A620D0D0037F153 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD2ABBEA2A6532A30037F153 /* _HackerRank_BonAppetit.swift in Sources */,
+				CD2ABBE62A65207F0037F153 /* _HackerRank_MigratoryBirds.swift in Sources */,
+				CD2ABBD22A64CE5F0037F153 /* _20_ValidKuoHao.swift in Sources */,
+				CD2ABBDE2A6505E60037F153 /* _HackerRank_GetTotalX.swift in Sources */,
+				CD2ABBE22A651DDA0037F153 /* _HackerRank_Birthday.swift in Sources */,
+				CD2ABBAE2A6382E20037F153 /* _66_PlusOne.swift in Sources */,
+				CD2ABB8D2A6284CF0037F153 /* _350_InterOfTwoArr2.swift in Sources */,
+				CD2ABB9D2A62C4010037F153 /* _645_MisMatch.swift in Sources */,
+				CD2ABB9B2A62ACC50037F153 /* _628_MaxOfThree.swift in Sources */,
+				CD2ABBAC2A63749D0037F153 /* _27_RemoveItem.swift in Sources */,
+				CD2ABBDC2A64FC8B0037F153 /* _HankerRank_Kangaroo.swift in Sources */,
+				CD2ABB7C2A622A780037F153 /* InsertSort.swift in Sources */,
+				CD2ABBD62A64DC2F0037F153 /* _67_AddBinary.swift in Sources */,
+				CD2ABB8F2A6287110037F153 /* _389_FindDifference.swift in Sources */,
+				CD2ABBB42A639DFB0037F153 /* _219_ContainsDuplicate.swift in Sources */,
+				CD2ABB872A6264BA0037F153 /* _242_DiffLocNumber.swift in Sources */,
+				CD2ABBD02A64C9C00037F153 /* _14_LongestPrefix.swift in Sources */,
+				CD2ABB762A6220100037F153 /* SortProtocol.swift in Sources */,
+				CD2ABB892A627DA30037F153 /* _268_MissionNumber.swift in Sources */,
+				CD2ABBC62A63E9EB0037F153 /* _566_Reshape.swift in Sources */,
+				CD2ABBCB2A6418020037F153 /* _HackerRank_TimeFormate.swift in Sources */,
+				CD2ABBBC2A63CCAE0037F153 /* _448_FindMissingNumber.swift in Sources */,
+				CD2ABB5D2A620D0D0037F153 /* ViewController.swift in Sources */,
+				CD2ABB742A621F5E0037F153 /* SelectSort.swift in Sources */,
+				CD2ABBE02A6518C60037F153 /* _HackerRank_BreakingRecords.swift in Sources */,
+				CD2ABB592A620D0D0037F153 /* AppDelegate.swift in Sources */,
+				CD2ABBBE2A63CFE40037F153 /* _485_MostOnes.swift in Sources */,
+				CD2ABB5B2A620D0D0037F153 /* SceneDelegate.swift in Sources */,
+				CD2ABBA82A636EEA0037F153 /* _1_TwoSum.swift in Sources */,
+				CD2ABBC02A63DAF40037F153 /* _495_TimoAttacking.swift in Sources */,
+				CD2ABBB82A63ACC70037F153 /* _283_MoveZero.swift in Sources */,
+				CD2ABB9F2A62CD120037F153 /* _747_AtLeastTwice.swift in Sources */,
+				CD2ABB992A62A6610037F153 /* _594_LongestSeque.swift in Sources */,
+				CD2ABBB62A63A4590037F153 /* _228_SummaryRanges.swift in Sources */,
+				CD2ABBA12A62D9D00037F153 /* _888_FairCandy.swift in Sources */,
+				CD2ABB972A62A3000037F153 /* _561_ArrayAppart.swift in Sources */,
+				CD2ABBBA2A63B0AD0037F153 /* _303_RageSumQuery.swift in Sources */,
+				CD2ABB7E2A6239720037F153 /* ShellSort.swift in Sources */,
+				CD2ABB8B2A6280F00037F153 /* _349_InterOfTwoArr.swift in Sources */,
+				CD2ABB852A6256A10037F153 /* _169_MostNumber.swift in Sources */,
+				CD2ABB6F2A620D230037F153 /* TenSort.swift in Sources */,
+				CD2ABBB22A63926E0037F153 /* _136_SingleNumber.swift in Sources */,
+				CD2ABB832A624F7C0037F153 /* _88_CombineSortedArray.swift in Sources */,
+				CD2ABB932A628E3A0037F153 /* _455_AssignCookie.swift in Sources */,
+				CD2ABBE82A6522910037F153 /* _HackerRank_DayOfProgrammer.swift in Sources */,
+				CD2ABBDA2A64F6F50037F153 /* _HackerRank_CountApplesAndOranges.swift in Sources */,
+				CD2ABBD82A64F36F0037F153 /* _HackerRank_GradingStudents.swift in Sources */,
+				CD2ABBC42A63E2E20037F153 /* _500_KeedboardRun.swift in Sources */,
+				CD2ABB722A621D860037F153 /* BubbleSort.swift in Sources */,
+				CD2ABBD42A64D44E0037F153 /* _58_LengthOfLastWord.swift in Sources */,
+				CD2ABB952A62966E0037F153 /* _506_RelativeRank.swift in Sources */,
+				CD2ABBA52A62E61B0037F153 /* _922_SortByParity2.swift in Sources */,
+				CD2ABBC92A6407E00037F153 /* _HackerRank_Print.swift in Sources */,
+				CD2ABBA32A62E0150037F153 /* _905_SortByParity.swift in Sources */,
+				CD2ABBC22A63DD190037F153 /* _496_NextGreatElement.swift in Sources */,
+				CD2ABB912A628A8A0037F153 /* _414_ThirdMaxNumber.swift in Sources */,
+				CD2ABBE42A651F780037F153 /* _HackerRank_DivisibleSumPairs.swift in Sources */,
+				CD2ABBB02A638F780037F153 /* _121_BestTimeToBuyStock.swift in Sources */,
+				CD2ABBAA2A63716A0037F153 /* _26_RemoveDuplicate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD2ABB5E2A620D0D0037F153 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD2ABB5F2A620D0D0037F153 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD2ABB632A620D0E0037F153 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD2ABB642A620D0E0037F153 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD2ABB672A620D0E0037F153 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD2ABB682A620D0E0037F153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD2ABB6A2A620D0E0037F153 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7QNX8HHK6G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Arithmetic/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shengangneng.Arithmetic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD2ABB6B2A620D0E0037F153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7QNX8HHK6G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Arithmetic/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shengangneng.Arithmetic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD2ABB502A620D0D0037F153 /* Build configuration list for PBXProject "Arithmetic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD2ABB672A620D0E0037F153 /* Debug */,
+				CD2ABB682A620D0E0037F153 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD2ABB692A620D0E0037F153 /* Build configuration list for PBXNativeTarget "Arithmetic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD2ABB6A2A620D0E0037F153 /* Debug */,
+				CD2ABB6B2A620D0E0037F153 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD2ABB4D2A620D0D0037F153 /* Project object */;
+}
