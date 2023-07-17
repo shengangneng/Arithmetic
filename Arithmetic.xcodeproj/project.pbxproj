@@ -69,6 +69,11 @@
 		CD2ABBE62A65207F0037F153 /* _HackerRank_MigratoryBirds.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBE52A65207F0037F153 /* _HackerRank_MigratoryBirds.swift */; };
 		CD2ABBE82A6522910037F153 /* _HackerRank_DayOfProgrammer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBE72A6522910037F153 /* _HackerRank_DayOfProgrammer.swift */; };
 		CD2ABBEA2A6532A30037F153 /* _HackerRank_BonAppetit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBE92A6532A30037F153 /* _HackerRank_BonAppetit.swift */; };
+		CD2ABBEC2A6535CE0037F153 /* _HackerRank_SockMerchant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBEB2A6535CE0037F153 /* _HackerRank_SockMerchant.swift */; };
+		CD2ABBEE2A65380C0037F153 /* _HackerRank_PageCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBED2A65380C0037F153 /* _HackerRank_PageCount.swift */; };
+		CD2ABBF02A653FBF0037F153 /* _HackerRank_GetMoneySpent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBEF2A653FBF0037F153 /* _HackerRank_GetMoneySpent.swift */; };
+		CD2ABBF22A6541720037F153 /* _HackerRank_CatAndMouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBF12A6541720037F153 /* _HackerRank_CatAndMouse.swift */; };
+		CD2ABBF42A65445A0037F153 /* _HackerRank_FormingMagicSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBF32A65445A0037F153 /* _HackerRank_FormingMagicSquare.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -136,6 +141,11 @@
 		CD2ABBE52A65207F0037F153 /* _HackerRank_MigratoryBirds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _HackerRank_MigratoryBirds.swift; sourceTree = "<group>"; };
 		CD2ABBE72A6522910037F153 /* _HackerRank_DayOfProgrammer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _HackerRank_DayOfProgrammer.swift; sourceTree = "<group>"; };
 		CD2ABBE92A6532A30037F153 /* _HackerRank_BonAppetit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _HackerRank_BonAppetit.swift; sourceTree = "<group>"; };
+		CD2ABBEB2A6535CE0037F153 /* _HackerRank_SockMerchant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _HackerRank_SockMerchant.swift; sourceTree = "<group>"; };
+		CD2ABBED2A65380C0037F153 /* _HackerRank_PageCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _HackerRank_PageCount.swift; sourceTree = "<group>"; };
+		CD2ABBEF2A653FBF0037F153 /* _HackerRank_GetMoneySpent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _HackerRank_GetMoneySpent.swift; sourceTree = "<group>"; };
+		CD2ABBF12A6541720037F153 /* _HackerRank_CatAndMouse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _HackerRank_CatAndMouse.swift; sourceTree = "<group>"; };
+		CD2ABBF32A65445A0037F153 /* _HackerRank_FormingMagicSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _HackerRank_FormingMagicSquare.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -260,6 +270,11 @@
 				CD2ABBE52A65207F0037F153 /* _HackerRank_MigratoryBirds.swift */,
 				CD2ABBE72A6522910037F153 /* _HackerRank_DayOfProgrammer.swift */,
 				CD2ABBE92A6532A30037F153 /* _HackerRank_BonAppetit.swift */,
+				CD2ABBEB2A6535CE0037F153 /* _HackerRank_SockMerchant.swift */,
+				CD2ABBED2A65380C0037F153 /* _HackerRank_PageCount.swift */,
+				CD2ABBEF2A653FBF0037F153 /* _HackerRank_GetMoneySpent.swift */,
+				CD2ABBF12A6541720037F153 /* _HackerRank_CatAndMouse.swift */,
+				CD2ABBF32A65445A0037F153 /* _HackerRank_FormingMagicSquare.swift */,
 			);
 			path = HackerRank;
 			sourceTree = "<group>";
@@ -348,11 +363,13 @@
 			files = (
 				CD2ABBEA2A6532A30037F153 /* _HackerRank_BonAppetit.swift in Sources */,
 				CD2ABBE62A65207F0037F153 /* _HackerRank_MigratoryBirds.swift in Sources */,
+				CD2ABBEE2A65380C0037F153 /* _HackerRank_PageCount.swift in Sources */,
 				CD2ABBD22A64CE5F0037F153 /* _20_ValidKuoHao.swift in Sources */,
 				CD2ABBDE2A6505E60037F153 /* _HackerRank_GetTotalX.swift in Sources */,
 				CD2ABBE22A651DDA0037F153 /* _HackerRank_Birthday.swift in Sources */,
 				CD2ABBAE2A6382E20037F153 /* _66_PlusOne.swift in Sources */,
 				CD2ABB8D2A6284CF0037F153 /* _350_InterOfTwoArr2.swift in Sources */,
+				CD2ABBEC2A6535CE0037F153 /* _HackerRank_SockMerchant.swift in Sources */,
 				CD2ABB9D2A62C4010037F153 /* _645_MisMatch.swift in Sources */,
 				CD2ABB9B2A62ACC50037F153 /* _628_MaxOfThree.swift in Sources */,
 				CD2ABBAC2A63749D0037F153 /* _27_RemoveItem.swift in Sources */,
@@ -387,11 +404,13 @@
 				CD2ABB8B2A6280F00037F153 /* _349_InterOfTwoArr.swift in Sources */,
 				CD2ABB852A6256A10037F153 /* _169_MostNumber.swift in Sources */,
 				CD2ABB6F2A620D230037F153 /* TenSort.swift in Sources */,
+				CD2ABBF42A65445A0037F153 /* _HackerRank_FormingMagicSquare.swift in Sources */,
 				CD2ABBB22A63926E0037F153 /* _136_SingleNumber.swift in Sources */,
 				CD2ABB832A624F7C0037F153 /* _88_CombineSortedArray.swift in Sources */,
 				CD2ABB932A628E3A0037F153 /* _455_AssignCookie.swift in Sources */,
 				CD2ABBE82A6522910037F153 /* _HackerRank_DayOfProgrammer.swift in Sources */,
 				CD2ABBDA2A64F6F50037F153 /* _HackerRank_CountApplesAndOranges.swift in Sources */,
+				CD2ABBF02A653FBF0037F153 /* _HackerRank_GetMoneySpent.swift in Sources */,
 				CD2ABBD82A64F36F0037F153 /* _HackerRank_GradingStudents.swift in Sources */,
 				CD2ABBC42A63E2E20037F153 /* _500_KeedboardRun.swift in Sources */,
 				CD2ABB722A621D860037F153 /* BubbleSort.swift in Sources */,
@@ -401,6 +420,7 @@
 				CD2ABBC92A6407E00037F153 /* _HackerRank_Print.swift in Sources */,
 				CD2ABBA32A62E0150037F153 /* _905_SortByParity.swift in Sources */,
 				CD2ABBC22A63DD190037F153 /* _496_NextGreatElement.swift in Sources */,
+				CD2ABBF22A6541720037F153 /* _HackerRank_CatAndMouse.swift in Sources */,
 				CD2ABB912A628A8A0037F153 /* _414_ThirdMaxNumber.swift in Sources */,
 				CD2ABBE42A651F780037F153 /* _HackerRank_DivisibleSumPairs.swift in Sources */,
 				CD2ABBB02A638F780037F153 /* _121_BestTimeToBuyStock.swift in Sources */,
