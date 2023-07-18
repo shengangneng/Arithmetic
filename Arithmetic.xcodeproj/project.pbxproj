@@ -74,6 +74,8 @@
 		CD2ABBF02A653FBF0037F153 /* _HackerRank_GetMoneySpent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBEF2A653FBF0037F153 /* _HackerRank_GetMoneySpent.swift */; };
 		CD2ABBF22A6541720037F153 /* _HackerRank_CatAndMouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBF12A6541720037F153 /* _HackerRank_CatAndMouse.swift */; };
 		CD2ABBF42A65445A0037F153 /* _HackerRank_FormingMagicSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBF32A65445A0037F153 /* _HackerRank_FormingMagicSquare.swift */; };
+		CD8E5ED92A6672FE003C7F6B /* _202_HappyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8E5ED82A6672FE003C7F6B /* _202_HappyNumber.swift */; };
+		CD8E5EDB2A667A84003C7F6B /* _205_Isomorphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8E5EDA2A667A84003C7F6B /* _205_Isomorphic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -146,6 +148,8 @@
 		CD2ABBEF2A653FBF0037F153 /* _HackerRank_GetMoneySpent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _HackerRank_GetMoneySpent.swift; sourceTree = "<group>"; };
 		CD2ABBF12A6541720037F153 /* _HackerRank_CatAndMouse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _HackerRank_CatAndMouse.swift; sourceTree = "<group>"; };
 		CD2ABBF32A65445A0037F153 /* _HackerRank_FormingMagicSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _HackerRank_FormingMagicSquare.swift; sourceTree = "<group>"; };
+		CD8E5ED82A6672FE003C7F6B /* _202_HappyNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _202_HappyNumber.swift; sourceTree = "<group>"; };
+		CD8E5EDA2A667A84003C7F6B /* _205_Isomorphic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _205_Isomorphic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +188,7 @@
 				CD2ABBC72A6407C00037F153 /* HackerRank */,
 				CD2ABBCC2A64C8B70037F153 /* String */,
 				CD2ABBA62A636ED40037F153 /* Array */,
+				CD8E5ED72A667269003C7F6B /* HashMap */,
 				CD2ABB812A624F540037F153 /* Solution */,
 				CD2ABB6C2A620D230037F153 /* Sorts */,
 				CD2ABB5E2A620D0D0037F153 /* Main.storyboard */,
@@ -290,6 +295,15 @@
 			path = String;
 			sourceTree = "<group>";
 		};
+		CD8E5ED72A667269003C7F6B /* HashMap */ = {
+			isa = PBXGroup;
+			children = (
+				CD8E5ED82A6672FE003C7F6B /* _202_HappyNumber.swift */,
+				CD8E5EDA2A667A84003C7F6B /* _205_Isomorphic.swift */,
+			);
+			path = HashMap;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -389,6 +403,7 @@
 				CD2ABB742A621F5E0037F153 /* SelectSort.swift in Sources */,
 				CD2ABBE02A6518C60037F153 /* _HackerRank_BreakingRecords.swift in Sources */,
 				CD2ABB592A620D0D0037F153 /* AppDelegate.swift in Sources */,
+				CD8E5ED92A6672FE003C7F6B /* _202_HappyNumber.swift in Sources */,
 				CD2ABBBE2A63CFE40037F153 /* _485_MostOnes.swift in Sources */,
 				CD2ABB5B2A620D0D0037F153 /* SceneDelegate.swift in Sources */,
 				CD2ABBA82A636EEA0037F153 /* _1_TwoSum.swift in Sources */,
@@ -424,6 +439,7 @@
 				CD2ABB912A628A8A0037F153 /* _414_ThirdMaxNumber.swift in Sources */,
 				CD2ABBE42A651F780037F153 /* _HackerRank_DivisibleSumPairs.swift in Sources */,
 				CD2ABBB02A638F780037F153 /* _121_BestTimeToBuyStock.swift in Sources */,
+				CD8E5EDB2A667A84003C7F6B /* _205_Isomorphic.swift in Sources */,
 				CD2ABBAA2A63716A0037F153 /* _26_RemoveDuplicate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

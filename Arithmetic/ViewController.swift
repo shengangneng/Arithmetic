@@ -26,7 +26,7 @@ class ViewController: UIViewController {
 //        _922_SortByParity2().sortArrayByParityII([4,2,5,7])
 //        _HackerRank_打印().staircase(n: 6)
 //        _HackerRank_TimeFormate().timeConversion(s: "12:05:45AM")
-        _HackerRank_GetTotalX().getTotalX(a: [2,4], b: [16,32,96])
+        _202_HappyNumber().isHappy(3)
         
     }
 
