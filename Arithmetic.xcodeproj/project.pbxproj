@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD1384AC2A677B3B007D8CC3 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1384AB2A677B3B007D8CC3 /* QuickSort.swift */; };
+		CD1384AF2A678822007D8CC3 /* _292_NimGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1384AE2A678822007D8CC3 /* _292_NimGame.swift */; };
+		CD1384B12A67945A007D8CC3 /* _1025_DivisorGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1384B02A67945A007D8CC3 /* _1025_DivisorGame.swift */; };
+		CD1384B32A679591007D8CC3 /* _1607_MaxValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1384B22A679591007D8CC3 /* _1607_MaxValue.swift */; };
 		CD2ABB592A620D0D0037F153 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABB582A620D0D0037F153 /* AppDelegate.swift */; };
 		CD2ABB5B2A620D0D0037F153 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABB5A2A620D0D0037F153 /* SceneDelegate.swift */; };
 		CD2ABB5D2A620D0D0037F153 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABB5C2A620D0D0037F153 /* ViewController.swift */; };
@@ -79,6 +83,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD1384AB2A677B3B007D8CC3 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
+		CD1384AE2A678822007D8CC3 /* _292_NimGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _292_NimGame.swift; sourceTree = "<group>"; };
+		CD1384B02A67945A007D8CC3 /* _1025_DivisorGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _1025_DivisorGame.swift; sourceTree = "<group>"; };
+		CD1384B22A679591007D8CC3 /* _1607_MaxValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _1607_MaxValue.swift; sourceTree = "<group>"; };
 		CD2ABB552A620D0D0037F153 /* Arithmetic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arithmetic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2ABB582A620D0D0037F153 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD2ABB5A2A620D0D0037F153 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -163,6 +171,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD1384AD2A678801007D8CC3 /* Brains */ = {
+			isa = PBXGroup;
+			children = (
+				CD1384AE2A678822007D8CC3 /* _292_NimGame.swift */,
+				CD1384B02A67945A007D8CC3 /* _1025_DivisorGame.swift */,
+				CD1384B22A679591007D8CC3 /* _1607_MaxValue.swift */,
+			);
+			path = Brains;
+			sourceTree = "<group>";
+		};
 		CD2ABB4C2A620D0D0037F153 = {
 			isa = PBXGroup;
 			children = (
@@ -190,6 +208,7 @@
 				CD2ABBA62A636ED40037F153 /* Array */,
 				CD8E5ED72A667269003C7F6B /* HashMap */,
 				CD2ABB812A624F540037F153 /* Solution */,
+				CD1384AD2A678801007D8CC3 /* Brains */,
 				CD2ABB6C2A620D230037F153 /* Sorts */,
 				CD2ABB5E2A620D0D0037F153 /* Main.storyboard */,
 				CD2ABB612A620D0E0037F153 /* Assets.xcassets */,
@@ -208,6 +227,7 @@
 				CD2ABB732A621F5E0037F153 /* SelectSort.swift */,
 				CD2ABB7B2A622A780037F153 /* InsertSort.swift */,
 				CD2ABB7D2A6239720037F153 /* ShellSort.swift */,
+				CD1384AB2A677B3B007D8CC3 /* QuickSort.swift */,
 			);
 			path = Sorts;
 			sourceTree = "<group>";
@@ -392,10 +412,12 @@
 				CD2ABBD62A64DC2F0037F153 /* _67_AddBinary.swift in Sources */,
 				CD2ABB8F2A6287110037F153 /* _389_FindDifference.swift in Sources */,
 				CD2ABBB42A639DFB0037F153 /* _219_ContainsDuplicate.swift in Sources */,
+				CD1384AF2A678822007D8CC3 /* _292_NimGame.swift in Sources */,
 				CD2ABB872A6264BA0037F153 /* _242_DiffLocNumber.swift in Sources */,
 				CD2ABBD02A64C9C00037F153 /* _14_LongestPrefix.swift in Sources */,
 				CD2ABB762A6220100037F153 /* SortProtocol.swift in Sources */,
 				CD2ABB892A627DA30037F153 /* _268_MissionNumber.swift in Sources */,
+				CD1384B32A679591007D8CC3 /* _1607_MaxValue.swift in Sources */,
 				CD2ABBC62A63E9EB0037F153 /* _566_Reshape.swift in Sources */,
 				CD2ABBCB2A6418020037F153 /* _HackerRank_TimeFormate.swift in Sources */,
 				CD2ABBBC2A63CCAE0037F153 /* _448_FindMissingNumber.swift in Sources */,
@@ -403,6 +425,7 @@
 				CD2ABB742A621F5E0037F153 /* SelectSort.swift in Sources */,
 				CD2ABBE02A6518C60037F153 /* _HackerRank_BreakingRecords.swift in Sources */,
 				CD2ABB592A620D0D0037F153 /* AppDelegate.swift in Sources */,
+				CD1384B12A67945A007D8CC3 /* _1025_DivisorGame.swift in Sources */,
 				CD8E5ED92A6672FE003C7F6B /* _202_HappyNumber.swift in Sources */,
 				CD2ABBBE2A63CFE40037F153 /* _485_MostOnes.swift in Sources */,
 				CD2ABB5B2A620D0D0037F153 /* SceneDelegate.swift in Sources */,
@@ -437,6 +460,7 @@
 				CD2ABBC22A63DD190037F153 /* _496_NextGreatElement.swift in Sources */,
 				CD2ABBF22A6541720037F153 /* _HackerRank_CatAndMouse.swift in Sources */,
 				CD2ABB912A628A8A0037F153 /* _414_ThirdMaxNumber.swift in Sources */,
+				CD1384AC2A677B3B007D8CC3 /* QuickSort.swift in Sources */,
 				CD2ABBE42A651F780037F153 /* _HackerRank_DivisibleSumPairs.swift in Sources */,
 				CD2ABBB02A638F780037F153 /* _121_BestTimeToBuyStock.swift in Sources */,
 				CD8E5EDB2A667A84003C7F6B /* _205_Isomorphic.swift in Sources */,
