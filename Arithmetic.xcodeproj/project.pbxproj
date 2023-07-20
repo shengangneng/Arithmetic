@@ -87,6 +87,15 @@
 		CDE9C1FD2A692BE10005516A /* _145_PostOrderTravelsal_Ite.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE9C1FC2A692BE10005516A /* _145_PostOrderTravelsal_Ite.swift */; };
 		CDE9C1FF2A693A160005516A /* _94_InorderTravelsal_Ite.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE9C1FE2A693A160005516A /* _94_InorderTravelsal_Ite.swift */; };
 		CDE9C2012A6947570005516A /* _102_LevelOrderTravelsal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE9C2002A6947570005516A /* _102_LevelOrderTravelsal.swift */; };
+		CDF14A452A69718C0096F491 /* _107_LevelOrderTravelsal_Reverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF14A442A69718C0096F491 /* _107_LevelOrderTravelsal_Reverse.swift */; };
+		CDF14A472A6973410096F491 /* _199_LevelOrder_RightSide.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF14A462A6973410096F491 /* _199_LevelOrder_RightSide.swift */; };
+		CDF14A492A6975660096F491 /* _637_LevelOrder_AverageNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF14A482A6975660096F491 /* _637_LevelOrder_AverageNumber.swift */; };
+		CDF14A4B2A6976CC0096F491 /* _429_LevelOrder_NTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF14A4A2A6976CC0096F491 /* _429_LevelOrder_NTree.swift */; };
+		CDF14A4D2A6979860096F491 /* _515_LevelOrder_LevelMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF14A4C2A6979860096F491 /* _515_LevelOrder_LevelMax.swift */; };
+		CDF14A4F2A697AD20096F491 /* _116_LevelOrder_NextRightPointer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF14A4E2A697AD20096F491 /* _116_LevelOrder_NextRightPointer.swift */; };
+		CDF14A512A69870D0096F491 /* _117_LevelOrder_NextRightPointer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF14A502A69870D0096F491 /* _117_LevelOrder_NextRightPointer.swift */; };
+		CDF14A532A6989710096F491 /* _104_LevelOrder_MaxHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF14A522A6989710096F491 /* _104_LevelOrder_MaxHeight.swift */; };
+		CDF14A552A698A810096F491 /* _111_LevelOrder_MinHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF14A542A698A810096F491 /* _111_LevelOrder_MinHeight.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -172,6 +181,15 @@
 		CDE9C1FC2A692BE10005516A /* _145_PostOrderTravelsal_Ite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _145_PostOrderTravelsal_Ite.swift; sourceTree = "<group>"; };
 		CDE9C1FE2A693A160005516A /* _94_InorderTravelsal_Ite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _94_InorderTravelsal_Ite.swift; sourceTree = "<group>"; };
 		CDE9C2002A6947570005516A /* _102_LevelOrderTravelsal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _102_LevelOrderTravelsal.swift; sourceTree = "<group>"; };
+		CDF14A442A69718C0096F491 /* _107_LevelOrderTravelsal_Reverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _107_LevelOrderTravelsal_Reverse.swift; sourceTree = "<group>"; };
+		CDF14A462A6973410096F491 /* _199_LevelOrder_RightSide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _199_LevelOrder_RightSide.swift; sourceTree = "<group>"; };
+		CDF14A482A6975660096F491 /* _637_LevelOrder_AverageNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _637_LevelOrder_AverageNumber.swift; sourceTree = "<group>"; };
+		CDF14A4A2A6976CC0096F491 /* _429_LevelOrder_NTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _429_LevelOrder_NTree.swift; sourceTree = "<group>"; };
+		CDF14A4C2A6979860096F491 /* _515_LevelOrder_LevelMax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _515_LevelOrder_LevelMax.swift; sourceTree = "<group>"; };
+		CDF14A4E2A697AD20096F491 /* _116_LevelOrder_NextRightPointer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _116_LevelOrder_NextRightPointer.swift; sourceTree = "<group>"; };
+		CDF14A502A69870D0096F491 /* _117_LevelOrder_NextRightPointer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _117_LevelOrder_NextRightPointer.swift; sourceTree = "<group>"; };
+		CDF14A522A6989710096F491 /* _104_LevelOrder_MaxHeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _104_LevelOrder_MaxHeight.swift; sourceTree = "<group>"; };
+		CDF14A542A698A810096F491 /* _111_LevelOrder_MinHeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _111_LevelOrder_MinHeight.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -348,9 +366,26 @@
 				CDE9C1FC2A692BE10005516A /* _145_PostOrderTravelsal_Ite.swift */,
 				CDE9C1F82A691A770005516A /* _94_InorderTravelsal.swift */,
 				CDE9C1FE2A693A160005516A /* _94_InorderTravelsal_Ite.swift */,
-				CDE9C2002A6947570005516A /* _102_LevelOrderTravelsal.swift */,
+				CDF14A432A6971020096F491 /* LevelOrder */,
 			);
 			path = BinaryTree;
+			sourceTree = "<group>";
+		};
+		CDF14A432A6971020096F491 /* LevelOrder */ = {
+			isa = PBXGroup;
+			children = (
+				CDE9C2002A6947570005516A /* _102_LevelOrderTravelsal.swift */,
+				CDF14A442A69718C0096F491 /* _107_LevelOrderTravelsal_Reverse.swift */,
+				CDF14A462A6973410096F491 /* _199_LevelOrder_RightSide.swift */,
+				CDF14A482A6975660096F491 /* _637_LevelOrder_AverageNumber.swift */,
+				CDF14A4A2A6976CC0096F491 /* _429_LevelOrder_NTree.swift */,
+				CDF14A4C2A6979860096F491 /* _515_LevelOrder_LevelMax.swift */,
+				CDF14A4E2A697AD20096F491 /* _116_LevelOrder_NextRightPointer.swift */,
+				CDF14A502A69870D0096F491 /* _117_LevelOrder_NextRightPointer.swift */,
+				CDF14A522A6989710096F491 /* _104_LevelOrder_MaxHeight.swift */,
+				CDF14A542A698A810096F491 /* _111_LevelOrder_MinHeight.swift */,
+			);
+			path = LevelOrder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -427,6 +462,7 @@
 				CD2ABBEA2A6532A30037F153 /* _HackerRank_BonAppetit.swift in Sources */,
 				CD2ABBE62A65207F0037F153 /* _HackerRank_MigratoryBirds.swift in Sources */,
 				CD2ABBEE2A65380C0037F153 /* _HackerRank_PageCount.swift in Sources */,
+				CDF14A552A698A810096F491 /* _111_LevelOrder_MinHeight.swift in Sources */,
 				CD2ABBD22A64CE5F0037F153 /* _20_ValidKuoHao.swift in Sources */,
 				CD2ABBDE2A6505E60037F153 /* _HackerRank_GetTotalX.swift in Sources */,
 				CDE9C1F52A690C430005516A /* _144_PreorderTravelsal.swift in Sources */,
@@ -437,6 +473,7 @@
 				CD2ABBEC2A6535CE0037F153 /* _HackerRank_SockMerchant.swift in Sources */,
 				CD2ABB9D2A62C4010037F153 /* _645_MisMatch.swift in Sources */,
 				CD2ABB9B2A62ACC50037F153 /* _628_MaxOfThree.swift in Sources */,
+				CDF14A512A69870D0096F491 /* _117_LevelOrder_NextRightPointer.swift in Sources */,
 				CD2ABBAC2A63749D0037F153 /* _27_RemoveItem.swift in Sources */,
 				CD2ABBDC2A64FC8B0037F153 /* _HankerRank_Kangaroo.swift in Sources */,
 				CD2ABB7C2A622A780037F153 /* InsertSort.swift in Sources */,
@@ -451,12 +488,14 @@
 				CD1384B32A679591007D8CC3 /* _1607_MaxValue.swift in Sources */,
 				CD2ABBC62A63E9EB0037F153 /* _566_Reshape.swift in Sources */,
 				CD2ABBCB2A6418020037F153 /* _HackerRank_TimeFormate.swift in Sources */,
+				CDF14A532A6989710096F491 /* _104_LevelOrder_MaxHeight.swift in Sources */,
 				CD2ABBBC2A63CCAE0037F153 /* _448_FindMissingNumber.swift in Sources */,
 				CD2ABB5D2A620D0D0037F153 /* ViewController.swift in Sources */,
 				CD2ABB742A621F5E0037F153 /* SelectSort.swift in Sources */,
 				CD2ABBE02A6518C60037F153 /* _HackerRank_BreakingRecords.swift in Sources */,
 				CD2ABB592A620D0D0037F153 /* AppDelegate.swift in Sources */,
 				CD1384B12A67945A007D8CC3 /* _1025_DivisorGame.swift in Sources */,
+				CDF14A4B2A6976CC0096F491 /* _429_LevelOrder_NTree.swift in Sources */,
 				CD8E5ED92A6672FE003C7F6B /* _202_HappyNumber.swift in Sources */,
 				CD2ABBBE2A63CFE40037F153 /* _485_MostOnes.swift in Sources */,
 				CDE9C2012A6947570005516A /* _102_LevelOrderTravelsal.swift in Sources */,
@@ -466,6 +505,7 @@
 				CD2ABBC02A63DAF40037F153 /* _495_TimoAttacking.swift in Sources */,
 				CD2ABBB82A63ACC70037F153 /* _283_MoveZero.swift in Sources */,
 				CD2ABB9F2A62CD120037F153 /* _747_AtLeastTwice.swift in Sources */,
+				CDF14A472A6973410096F491 /* _199_LevelOrder_RightSide.swift in Sources */,
 				CD2ABB992A62A6610037F153 /* _594_LongestSeque.swift in Sources */,
 				CDE9C1FF2A693A160005516A /* _94_InorderTravelsal_Ite.swift in Sources */,
 				CD2ABBB62A63A4590037F153 /* _228_SummaryRanges.swift in Sources */,
@@ -474,9 +514,11 @@
 				CD2ABB972A62A3000037F153 /* _561_ArrayAppart.swift in Sources */,
 				CD2ABBBA2A63B0AD0037F153 /* _303_RageSumQuery.swift in Sources */,
 				CD2ABB7E2A6239720037F153 /* ShellSort.swift in Sources */,
+				CDF14A4F2A697AD20096F491 /* _116_LevelOrder_NextRightPointer.swift in Sources */,
 				CD2ABB8B2A6280F00037F153 /* _349_InterOfTwoArr.swift in Sources */,
 				CDE9C1FB2A69276B0005516A /* _144_PreorderTravelsal_Ite.swift in Sources */,
 				CD2ABB852A6256A10037F153 /* _169_MostNumber.swift in Sources */,
+				CDF14A4D2A6979860096F491 /* _515_LevelOrder_LevelMax.swift in Sources */,
 				CD2ABB6F2A620D230037F153 /* TenSort.swift in Sources */,
 				CD2ABBF42A65445A0037F153 /* _HackerRank_FormingMagicSquare.swift in Sources */,
 				CD2ABBB22A63926E0037F153 /* _136_SingleNumber.swift in Sources */,
@@ -498,9 +540,11 @@
 				CD2ABB912A628A8A0037F153 /* _414_ThirdMaxNumber.swift in Sources */,
 				CD1384AC2A677B3B007D8CC3 /* QuickSort.swift in Sources */,
 				CD2ABBE42A651F780037F153 /* _HackerRank_DivisibleSumPairs.swift in Sources */,
+				CDF14A492A6975660096F491 /* _637_LevelOrder_AverageNumber.swift in Sources */,
 				CD2ABBB02A638F780037F153 /* _121_BestTimeToBuyStock.swift in Sources */,
 				CD8E5EDB2A667A84003C7F6B /* _205_Isomorphic.swift in Sources */,
 				CD2ABBAA2A63716A0037F153 /* _26_RemoveDuplicate.swift in Sources */,
+				CDF14A452A69718C0096F491 /* _107_LevelOrderTravelsal_Reverse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
