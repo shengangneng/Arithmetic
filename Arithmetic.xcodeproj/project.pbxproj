@@ -80,6 +80,13 @@
 		CD2ABBF42A65445A0037F153 /* _HackerRank_FormingMagicSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2ABBF32A65445A0037F153 /* _HackerRank_FormingMagicSquare.swift */; };
 		CD8E5ED92A6672FE003C7F6B /* _202_HappyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8E5ED82A6672FE003C7F6B /* _202_HappyNumber.swift */; };
 		CD8E5EDB2A667A84003C7F6B /* _205_Isomorphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8E5EDA2A667A84003C7F6B /* _205_Isomorphic.swift */; };
+		CDE9C1F52A690C430005516A /* _144_PreorderTravelsal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE9C1F42A690C430005516A /* _144_PreorderTravelsal.swift */; };
+		CDE9C1F72A6918460005516A /* _145_PostOrderTravelsal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE9C1F62A6918460005516A /* _145_PostOrderTravelsal.swift */; };
+		CDE9C1F92A691A770005516A /* _94_InorderTravelsal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE9C1F82A691A770005516A /* _94_InorderTravelsal.swift */; };
+		CDE9C1FB2A69276B0005516A /* _144_PreorderTravelsal_Ite.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE9C1FA2A69276B0005516A /* _144_PreorderTravelsal_Ite.swift */; };
+		CDE9C1FD2A692BE10005516A /* _145_PostOrderTravelsal_Ite.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE9C1FC2A692BE10005516A /* _145_PostOrderTravelsal_Ite.swift */; };
+		CDE9C1FF2A693A160005516A /* _94_InorderTravelsal_Ite.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE9C1FE2A693A160005516A /* _94_InorderTravelsal_Ite.swift */; };
+		CDE9C2012A6947570005516A /* _102_LevelOrderTravelsal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE9C2002A6947570005516A /* _102_LevelOrderTravelsal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -158,6 +165,13 @@
 		CD2ABBF32A65445A0037F153 /* _HackerRank_FormingMagicSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _HackerRank_FormingMagicSquare.swift; sourceTree = "<group>"; };
 		CD8E5ED82A6672FE003C7F6B /* _202_HappyNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _202_HappyNumber.swift; sourceTree = "<group>"; };
 		CD8E5EDA2A667A84003C7F6B /* _205_Isomorphic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _205_Isomorphic.swift; sourceTree = "<group>"; };
+		CDE9C1F42A690C430005516A /* _144_PreorderTravelsal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _144_PreorderTravelsal.swift; sourceTree = "<group>"; };
+		CDE9C1F62A6918460005516A /* _145_PostOrderTravelsal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _145_PostOrderTravelsal.swift; sourceTree = "<group>"; };
+		CDE9C1F82A691A770005516A /* _94_InorderTravelsal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _94_InorderTravelsal.swift; sourceTree = "<group>"; };
+		CDE9C1FA2A69276B0005516A /* _144_PreorderTravelsal_Ite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _144_PreorderTravelsal_Ite.swift; sourceTree = "<group>"; };
+		CDE9C1FC2A692BE10005516A /* _145_PostOrderTravelsal_Ite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _145_PostOrderTravelsal_Ite.swift; sourceTree = "<group>"; };
+		CDE9C1FE2A693A160005516A /* _94_InorderTravelsal_Ite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _94_InorderTravelsal_Ite.swift; sourceTree = "<group>"; };
+		CDE9C2002A6947570005516A /* _102_LevelOrderTravelsal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _102_LevelOrderTravelsal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +218,7 @@
 				CD2ABB5A2A620D0D0037F153 /* SceneDelegate.swift */,
 				CD2ABB5C2A620D0D0037F153 /* ViewController.swift */,
 				CD2ABBC72A6407C00037F153 /* HackerRank */,
+				CDE9C1F32A690C150005516A /* BinaryTree */,
 				CD2ABBCC2A64C8B70037F153 /* String */,
 				CD2ABBA62A636ED40037F153 /* Array */,
 				CD8E5ED72A667269003C7F6B /* HashMap */,
@@ -324,6 +339,20 @@
 			path = HashMap;
 			sourceTree = "<group>";
 		};
+		CDE9C1F32A690C150005516A /* BinaryTree */ = {
+			isa = PBXGroup;
+			children = (
+				CDE9C1F42A690C430005516A /* _144_PreorderTravelsal.swift */,
+				CDE9C1FA2A69276B0005516A /* _144_PreorderTravelsal_Ite.swift */,
+				CDE9C1F62A6918460005516A /* _145_PostOrderTravelsal.swift */,
+				CDE9C1FC2A692BE10005516A /* _145_PostOrderTravelsal_Ite.swift */,
+				CDE9C1F82A691A770005516A /* _94_InorderTravelsal.swift */,
+				CDE9C1FE2A693A160005516A /* _94_InorderTravelsal_Ite.swift */,
+				CDE9C2002A6947570005516A /* _102_LevelOrderTravelsal.swift */,
+			);
+			path = BinaryTree;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -400,9 +429,11 @@
 				CD2ABBEE2A65380C0037F153 /* _HackerRank_PageCount.swift in Sources */,
 				CD2ABBD22A64CE5F0037F153 /* _20_ValidKuoHao.swift in Sources */,
 				CD2ABBDE2A6505E60037F153 /* _HackerRank_GetTotalX.swift in Sources */,
+				CDE9C1F52A690C430005516A /* _144_PreorderTravelsal.swift in Sources */,
 				CD2ABBE22A651DDA0037F153 /* _HackerRank_Birthday.swift in Sources */,
 				CD2ABBAE2A6382E20037F153 /* _66_PlusOne.swift in Sources */,
 				CD2ABB8D2A6284CF0037F153 /* _350_InterOfTwoArr2.swift in Sources */,
+				CDE9C1F72A6918460005516A /* _145_PostOrderTravelsal.swift in Sources */,
 				CD2ABBEC2A6535CE0037F153 /* _HackerRank_SockMerchant.swift in Sources */,
 				CD2ABB9D2A62C4010037F153 /* _645_MisMatch.swift in Sources */,
 				CD2ABB9B2A62ACC50037F153 /* _628_MaxOfThree.swift in Sources */,
@@ -428,18 +459,23 @@
 				CD1384B12A67945A007D8CC3 /* _1025_DivisorGame.swift in Sources */,
 				CD8E5ED92A6672FE003C7F6B /* _202_HappyNumber.swift in Sources */,
 				CD2ABBBE2A63CFE40037F153 /* _485_MostOnes.swift in Sources */,
+				CDE9C2012A6947570005516A /* _102_LevelOrderTravelsal.swift in Sources */,
 				CD2ABB5B2A620D0D0037F153 /* SceneDelegate.swift in Sources */,
 				CD2ABBA82A636EEA0037F153 /* _1_TwoSum.swift in Sources */,
+				CDE9C1FD2A692BE10005516A /* _145_PostOrderTravelsal_Ite.swift in Sources */,
 				CD2ABBC02A63DAF40037F153 /* _495_TimoAttacking.swift in Sources */,
 				CD2ABBB82A63ACC70037F153 /* _283_MoveZero.swift in Sources */,
 				CD2ABB9F2A62CD120037F153 /* _747_AtLeastTwice.swift in Sources */,
 				CD2ABB992A62A6610037F153 /* _594_LongestSeque.swift in Sources */,
+				CDE9C1FF2A693A160005516A /* _94_InorderTravelsal_Ite.swift in Sources */,
 				CD2ABBB62A63A4590037F153 /* _228_SummaryRanges.swift in Sources */,
+				CDE9C1F92A691A770005516A /* _94_InorderTravelsal.swift in Sources */,
 				CD2ABBA12A62D9D00037F153 /* _888_FairCandy.swift in Sources */,
 				CD2ABB972A62A3000037F153 /* _561_ArrayAppart.swift in Sources */,
 				CD2ABBBA2A63B0AD0037F153 /* _303_RageSumQuery.swift in Sources */,
 				CD2ABB7E2A6239720037F153 /* ShellSort.swift in Sources */,
 				CD2ABB8B2A6280F00037F153 /* _349_InterOfTwoArr.swift in Sources */,
+				CDE9C1FB2A69276B0005516A /* _144_PreorderTravelsal_Ite.swift in Sources */,
 				CD2ABB852A6256A10037F153 /* _169_MostNumber.swift in Sources */,
 				CD2ABB6F2A620D230037F153 /* TenSort.swift in Sources */,
 				CD2ABBF42A65445A0037F153 /* _HackerRank_FormingMagicSquare.swift in Sources */,
