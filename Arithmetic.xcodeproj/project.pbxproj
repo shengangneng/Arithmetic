@@ -232,8 +232,6 @@
 		CD2ABB572A620D0D0037F153 /* Arithmetic */ = {
 			isa = PBXGroup;
 			children = (
-				CD2ABB582A620D0D0037F153 /* AppDelegate.swift */,
-				CD2ABB5A2A620D0D0037F153 /* SceneDelegate.swift */,
 				CD2ABB5C2A620D0D0037F153 /* ViewController.swift */,
 				CD2ABBC72A6407C00037F153 /* HackerRank */,
 				CDE9C1F32A690C150005516A /* BinaryTree */,
@@ -243,10 +241,7 @@
 				CD2ABB812A624F540037F153 /* Solution */,
 				CD1384AD2A678801007D8CC3 /* Brains */,
 				CD2ABB6C2A620D230037F153 /* Sorts */,
-				CD2ABB5E2A620D0D0037F153 /* Main.storyboard */,
-				CD2ABB612A620D0E0037F153 /* Assets.xcassets */,
-				CD2ABB632A620D0E0037F153 /* LaunchScreen.storyboard */,
-				CD2ABB662A620D0E0037F153 /* Info.plist */,
+				CDF14A562A6991730096F491 /* Resources */,
 			);
 			path = Arithmetic;
 			sourceTree = "<group>";
@@ -386,6 +381,19 @@
 				CDF14A542A698A810096F491 /* _111_LevelOrder_MinHeight.swift */,
 			);
 			path = LevelOrder;
+			sourceTree = "<group>";
+		};
+		CDF14A562A6991730096F491 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CD2ABB582A620D0D0037F153 /* AppDelegate.swift */,
+				CD2ABB5A2A620D0D0037F153 /* SceneDelegate.swift */,
+				CD2ABB5E2A620D0D0037F153 /* Main.storyboard */,
+				CD2ABB612A620D0E0037F153 /* Assets.xcassets */,
+				CD2ABB632A620D0E0037F153 /* LaunchScreen.storyboard */,
+				CD2ABB662A620D0E0037F153 /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -693,7 +701,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7QNX8HHK6G;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Arithmetic/Info.plist;
+				INFOPLIST_FILE = Arithmetic/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -721,7 +729,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7QNX8HHK6G;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Arithmetic/Info.plist;
+				INFOPLIST_FILE = Arithmetic/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

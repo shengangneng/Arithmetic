@@ -22,9 +22,9 @@ struct _645_MisMatch {
                 sameNum = num
             }
         }
-        var originResult = (1 + nums.count) * nums.count / 2
+        let originResult = (1 + nums.count) * nums.count / 2
 
-        var missNum = originResult + sameNum - result
+        let missNum = originResult + sameNum - result
 
         return [sameNum, missNum]
     }

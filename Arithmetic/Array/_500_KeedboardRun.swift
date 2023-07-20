@@ -13,9 +13,9 @@ struct _500_KeedboardRun {
     
     func findWords(_ words: [String]) -> [String] {
 
-        var str1 = "qwertyuiop"
-        var str2 = "asdfghjkl"
-        var str3 = "zxcvbnm"
+        let str1 = "qwertyuiop"
+        let str2 = "asdfghjkl"
+        let str3 = "zxcvbnm"
 
         var arr = [String]()
         for word in words {

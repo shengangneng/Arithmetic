@@ -18,7 +18,7 @@ import Foundation
 struct _HackerRank_PageCount {
     func pageCount(n: Int, p: Int) -> Int {
         
-        var count = (n + 2) / 2
+        let count = (n + 2) / 2
         let minRight = n / 2 + 1
         
         let pIndex = p / 2

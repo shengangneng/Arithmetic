@@ -15,7 +15,6 @@ struct _14_LongestPrefix {
         if strs.count == 1 {
             return strs[0]
         }
-        let count = strs.count
         var preMaxString = ""
         var preString = ""
         

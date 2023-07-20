@@ -12,8 +12,8 @@ struct _268_MissionNumber {
     
     
     func missingNumber(_ nums: [Int]) -> Int {
-        var n = nums.count
-        var max = (1 + n) * n / 2
+        let n = nums.count
+        let max = (1 + n) * n / 2
 
         var result = 0
         for num in nums {

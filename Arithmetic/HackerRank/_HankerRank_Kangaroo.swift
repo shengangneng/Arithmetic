@@ -24,7 +24,7 @@ struct _HankerRank_Kangaroo {
         if (x1 > x2 && v1 >= v2) || (x1 < x2 && v1 <= v2) {
             return "NO"
         }
-        var xMax: Bool = (x1 > x2)
+        let xMax: Bool = (x1 > x2)
         for i in 1... {
             let xV1 = x1 + v1 * i
             let xV2 = x2 + v2 * i

@@ -11,7 +11,7 @@ import Foundation
 struct _116_LevelOrder_NextRightPointer {
     
     func connect(_ root: Node?) -> Node? {
-        guard var root = root else {
+        guard let root = root else {
             return root
         }
 //        var level = [root]

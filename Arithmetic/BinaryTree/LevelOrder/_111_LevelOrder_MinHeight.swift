@@ -18,7 +18,7 @@ struct _111_LevelOrder_MinHeight {
         while !level.isEmpty {
             let count = level.count
             for _ in 0..<count {
-                var node = level.removeFirst()
+                let node = level.removeFirst()
 
                 if node.left != nil {
                     level.append(node.left!)
