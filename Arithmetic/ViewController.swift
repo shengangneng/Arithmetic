@@ -19,7 +19,7 @@ class ViewController: UIViewController {
 //        print(SelectSort.sort(arr: mArr))
 //        print(InsertSort.sort(arr: mArr))
 //        print(ShellShort.sort(arr: mArr))
-        print(QuickSort.sort(arr: mArr))
+//        print(QuickSort.sort(arr: mArr))
         
 //        var nums1: [Int] = [2,0]
 //        let nums2: [Int] = [1]

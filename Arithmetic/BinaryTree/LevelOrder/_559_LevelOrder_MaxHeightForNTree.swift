@@ -1,32 +1,30 @@
 //
-//  _429_LevelOrder_NTree.swift
+//  _559_LevelOrder_MaxHeightForNTree.swift
 //  Arithmetic
 //
-//  Created by shengangneng on 2023/7/20.
+//  Created by shengangneng on 2023/7/21.
 //
 
 import Foundation
 
-// https://leetcode.cn/problems/n-ary-tree-level-order-traversal/
-struct _429_LevelOrder_NTree {
-    func levelOrder(_ root: Node?) -> [[Int]] {
-        var res = [[Int]]()
+// https://leetcode.cn/problems/maximum-depth-of-n-ary-tree/
+struct _559_LevelOrder_MaxHeightForNTree {
+    func maxDepth(_ root: Node?) -> Int {
         guard let root = root else {
-            return res
+            return 0
         }
         var level = [root]
+        var depth = 0
         while !level.isEmpty {
             let count = level.count
-            var subArray = [Int]()
             for _ in 0..<count {
                 let node = level.removeFirst()
-                subArray.append(node.val)
                 for child in node.children {
                     level.append(child)
                 }
             }
-            res.append(subArray)
+            depth += 1
         }
-        return res
+        return depth
     }
 }
