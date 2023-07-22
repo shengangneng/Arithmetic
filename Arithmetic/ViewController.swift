@@ -29,6 +29,7 @@ class ViewController: UIViewController {
 //        _HackerRank_打印().staircase(n: 6)
 //        _HackerRank_TimeFormate().timeConversion(s: "12:05:45AM")
 //        _202_HappyNumber().isHappy(3)
+//        _1499_Hard_FindMaxOfEquation.findMaxValueOfEquation([[-15,-1],[-14,-5],[-11,1],[-9,7],[-8,18],[-7,-5],[-3,3],[4,14],[12,-4],[13,15],[14,-19],[19,-1]], 8)
         
     }
 
