@@ -29,4 +29,21 @@ struct _145_PostOrderTravelsal_Ite {
         
         return res.reversed()
     }
+    
+    func postorderTraversal1(_ root: TreeNode?) -> [Int] {
+        var result = [Int]()
+        guard let root = root else { return result }
+        var stack = [root]
+        while !stack.isEmpty {
+            let node = stack.removeLast()
+            if node.left != nil {
+                stack.append(node.left!)
+            }
+            if node.right != nil {
+                stack.append(node.right!)
+            }
+            result.append(node.val)
+        }
+        return result
+    }
 }

@@ -9,6 +9,38 @@ import Foundation
 
 // https://leetcode.cn/problems/balanced-binary-tree/
 struct _110_IsBalanceTree {
+    
+    // 左神，递归套路
+    private struct Info {
+        var isBalanced: Bool
+        var height: Int
+    }
+    
+    private func process(_ root: TreeNode?) -> Info {
+        guard let root = root else { return Info(isBalanced: true, height: 0)}
+        let leftInfo = process(root.left)
+        let rightInfo = process(root.right)
+    
+        var balance = true
+        if !leftInfo.isBalanced || !rightInfo.isBalanced {
+            balance = false
+        }
+        if abs(leftInfo.height - rightInfo.height) > 1 {
+            balance = false
+        }
+        
+        var height = max(leftInfo.height, rightInfo.height) + 1
+        
+        return Info(isBalanced: balance, height: height)
+    }
+    
+    func isBalanced1(_ root: TreeNode?) -> Bool {
+        return process(root).isBalanced
+    }
+    
+    
+    
+    // 层序遍历（最大深度 - 最小深度）> 1则不是平衡的【这样求是不对的】
     // 递归
     func isBalanced(_ root: TreeNode?) -> Bool {
         return treeHeight(root) != -1

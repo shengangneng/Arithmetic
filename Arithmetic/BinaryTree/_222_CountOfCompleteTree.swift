@@ -9,8 +9,14 @@ import Foundation
 
 // https://leetcode.cn/problems/count-complete-tree-nodes/description/
 struct _222_CountOfCompleteTree {
+    // 递归
+//    func countNodes(_ root: TreeNode?) -> Int {
+//        guard let root = root else { return 0 }
+//        return 1 + countNodes(root.left) + countNodes(root.right)
+//    }
+    
+    // 使用层序遍历即可
     func countNodes(_ root: TreeNode?) -> Int {
-        // 使用层序遍历即可
         guard let root = root else {
             return 0
         }

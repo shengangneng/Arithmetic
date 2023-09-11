@@ -33,4 +33,21 @@ struct _144_PreorderTravelsal_Ite {
         }
         return res
     }
+    
+    func preorderTraversal1(_ root: TreeNode?) -> [Int] {
+        var result = [Int]()
+        guard let root = root else { return result }
+        var stack = [root]
+        while !stack.isEmpty {
+            let node = stack.removeLast()
+            if node.right != nil {
+                stack.append(node.right!)
+            }
+            if node.left != nil {
+                stack.append(node.left!)
+            }
+            result.append(node.val)
+        }
+        return result
+    }
 }

@@ -35,4 +35,22 @@ struct _94_InorderTravelsal_Ite {
         return res
     }
     
+    
+    func inorderTraversal1(_ root: TreeNode?) -> [Int] {
+        var result = [Int]()
+        var stack = [TreeNode]()
+        var cur: TreeNode! = root
+        while cur != nil || !stack.isEmpty {
+            if cur != nil {
+                stack.append(cur)
+                cur = cur.left
+            } else {
+                cur = stack.removeLast()
+                result.append(cur.val)
+                cur = cur.right
+            }
+        }
+        return result
+    }
+    
 }

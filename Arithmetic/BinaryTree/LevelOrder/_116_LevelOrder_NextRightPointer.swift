@@ -11,26 +11,20 @@ import Foundation
 struct _116_LevelOrder_NextRightPointer {
     
     func connect(_ root: Node?) -> Node? {
-        guard let root = root else {
-            return root
-        }
-//        var level = [root]
-//        while !level.isEmpty {
-//            let count = level.count
-//            var preNode: Node? = nil
-//            for i in 0..<count {
-//                let node = level.removeFirst()
-//                if 0 == i {
-//                    preNode = node
-//                } else {
-//                    preNode!.next = node
-//                    preNode = node
+        guard let root = root else { return root }
+//        var queue = [root]
+//        while !queue.isEmpty {
+//            let count = queue.count
+//            for index in 0..<count {
+//                let node = queue.removeFirst()
+//                if index + 1 < count {
+//                    node.next = queue.first
 //                }
 //                if node.left != nil {
-//                    level.append(node.left!)
+//                    queue.append(node.left!)
 //                }
 //                if node.right != nil {
-//                    level.append(node.right!)
+//                    queue.append(node.right!)
 //                }
 //            }
 //        }

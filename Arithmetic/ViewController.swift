@@ -30,7 +30,66 @@ class ViewController: UIViewController {
 //        _HackerRank_TimeFormate().timeConversion(s: "12:05:45AM")
 //        _202_HappyNumber().isHappy(3)
 //        _1499_Hard_FindMaxOfEquation.findMaxValueOfEquation([[-15,-1],[-14,-5],[-11,1],[-9,7],[-8,18],[-7,-5],[-3,3],[4,14],[12,-4],[13,15],[14,-19],[19,-1]], 8)
+//        var nums = [-2,1,-3,4,-1,2,1,-5,4]
+//        var nums = [1,2,3,4,5,-10,2,3,4,2]
+//        var nums = [10, 15, 20]
+//        _Offer42_MaxSubArray().maxSubArray(nums)
+//        _746_MinCostClimbingStairs().minCostClimbingStairs(nums)
+//        _62_UniquePaths().uniquePaths(3, 2)
+//        _63_UniquePathsWithObstacles().uniquePathsWithObstacles([[0,1],[1,0]])
+//        _343_IntegerBreak().integerBreak(2)
+//        _96_NumTrees().numTrees(3)
+//        _96_NumTrees().numTrees(4)
+//        _Pakage_01_OneDimensial().testWeightBagProblem([1,3,4], [15,20,30], 4)
+//        _416_CanPartition().canPartition([1,2,5])
+//        _474_FindMaxForm().findMaxForm(["10", "0001", "111001", "1", "0"], 5, 3)
+//        _474_FindMaxForm().findMaxForm(["10", "0", "1"], 1, 1)
+//        let queue = MyQueue()
+//        queue.push(1)
+//        queue.push(2)
+//        print(queue.peek())
+//        print(queue.pop())
+//        print(queue.empty())
+//        print(queue.empty())
         
+//        var head = ListNode(1)
+//        head.next = ListNode(2)
+//        head.next?.next = ListNode(3)
+//        head.next?.next?.next = ListNode(4)
+//        head.next?.next?.next?.next = ListNode(5)
+//        head.next?.next?.next?.next?.next = ListNode(6)
+//        head.next?.next?.next?.next?.next?.next = ListNode(7)
+//        head.next?.next?.next?.next?.next?.next?.next = ListNode(8)
+//        _328_OddEvenList().oddEvenList(head)
+        
+//        var c: [Character] = ["H","a","n","n","a","h"]
+//        _344_ReverseString().reverseString(&c)
+        
+//        _1_TwoSum().twoSum([3,2,4], 6)
+//        TenSort().mergeSort1(arr: ViewController.arr)
+        
+//        var head = ListNode(1)
+//        head.next = ListNode(4)
+//        head.next?.next = ListNode(5)
+//
+//        var head2 = ListNode(1)
+//        head2.next = ListNode(3)
+//        head2.next?.next = ListNode(4)
+//
+//        var head3 = ListNode(2)
+//        head3.next = ListNode(6)
+//
+//        _23_MergeKLists().mergeKLists([head, head2, head3])
+        
+        
+        var head = ListNode(1)
+        head.next = ListNode(2)
+        head.next?.next = ListNode(3)
+//        head.next?.next?.next = ListNode(4)
+//        head.next?.next?.next?.next = ListNode(5)
+        
+//        _87_Partition().partition(head, 3)
+        _25_ReverseKGroup().reverseKGroup(head, 2)
     }
 
 

@@ -9,6 +9,7 @@ import Foundation
 
 // https://leetcode.cn/problems/maximum-depth-of-binary-tree/
 struct _104_LevelOrder_MaxHeight {
+    // 层序遍历
     func maxDepth(_ root: TreeNode?) -> Int {
         guard let root = root else {
             return 0
@@ -29,5 +30,13 @@ struct _104_LevelOrder_MaxHeight {
             height += 1
         }
         return height
+    }
+    
+    // 递归
+    func maxDepth1(_ root: TreeNode?) -> Int {
+        guard let root = root else { return 0 }
+        let leftdepth = maxDepth(root.left)
+        let rightdepth = maxDepth(root.right)
+        return 1 + max(leftdepth, rightdepth)
     }
 }
