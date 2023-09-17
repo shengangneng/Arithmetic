@@ -82,14 +82,22 @@ class ViewController: UIViewController {
 //        _23_MergeKLists().mergeKLists([head, head2, head3])
         
         
-        var head = ListNode(1)
-        head.next = ListNode(2)
-        head.next?.next = ListNode(3)
+//        var head = ListNode(1)
+//        head.next = ListNode(2)
+//        head.next?.next = ListNode(3)
 //        head.next?.next?.next = ListNode(4)
 //        head.next?.next?.next?.next = ListNode(5)
         
 //        _87_Partition().partition(head, 3)
-        _25_ReverseKGroup().reverseKGroup(head, 2)
+//        _25_ReverseKGroup().reverseKGroup(head, 2)
+        
+//        _198_Rob().rob([2, 7, 9, 3, 1])
+//        _213_Rob().rob([1,1,3,6,7,10,7,1,8,5,9,1,4,4,3])
+//        _KusiShou_01().sumIndicesWithKSetBits([5,10,1,5,2], 1)
+//        _KusiShou_01().sumIndicesWithKSetBits([4,3,2,1], 2)
+        
+        let res = _2334_ValidSubarraySize().validSubarraySize([818,232,595,418,608,229,37,330,876,774,931,939,479,884,354,328], 3790)
+        print(res)
     }
 
 
