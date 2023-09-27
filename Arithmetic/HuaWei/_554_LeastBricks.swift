@@ -7,6 +7,6 @@
 
 import Foundation
 
+// https://leetcode.cn/problems/brick-wall/
 struct _554_LeastBricks {
-    
 }
