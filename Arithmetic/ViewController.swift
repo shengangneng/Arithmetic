@@ -191,8 +191,8 @@ class ViewController: UIViewController {
 //        let res = _2_MonitorCount().test(3, 4, ["0 1 0 0", "0 1 0 0", "0 0 0 0"])
 //        let res1 = _2_MonitorCount().test(3, 4, ["1 1 0 0", "0 1 0 0", "0 0 0 0"])
 //        let res2 = _2_MonitorCount().test(3, 4, ["0 1 1 0", "0 1 0 0", "0 0 0 0"])
-//        let res = _3_Alibaba().test("2,5,-1,8,6,4,65,76,6,78,3,34,23,23,423,42,124,21,32,42,4,23,42,34,23,4,2,2,234,2,34,32,4,23,53,89,09,8,76,6,45,64,45,32,42,212,12,42,4,32")
-//        let res1 = _3_Alibaba().test("8,9")
+//        let res = _3_AlibabaFindGold_1().test("2,5,-1,8,6,4,65,76,6,78,3,34,23,23,423,42,124,21,32,42,4,23,42,34,23,4,2,2,234,2,34,32,4,23,53,89,09,8,76,6,45,64,45,32,42,212,12,42,4,32")
+//        let res1 = _3_AlibabaFindGold_1().test("8,9")
         
         //
 //        let res = _4_OptionalClass().test("01202021,75;01201033,95;01202008,80;01203006,90;01203088,100", "01202008,70;01203088,85;01202111,80;01202021,75;01201100,88")
@@ -227,9 +227,72 @@ class ViewController: UIViewController {
 //        let res1 = _1665_MinimumEffort().minimumEffort([[1,3],[2,4],[10,11],[10,12],[8,9]]) // 32
 //        let res2 = _1665_MinimumEffort().minimumEffort([[1,7],[2,8],[3,9],[4,10],[5,11],[6,12]]) // 27
         
-        let res = _2454_SecondGreaterElement().secondGreaterElement([2,4,0,9,6])
-        print(res)
+//        let res = _2454_SecondGreaterElement().secondGreaterElement([2,4,0,9,6])
+//        let res = _11_MessageQueue().test("2 22 1 11 4 44 5 55 3 33", "1 7 2 3")
+//        let res1 = _11_MessageQueue().test("5 64 11 64 9 97", "9 11 4 9")
         
+//        let res = _12_Match().test("4,5", ["10,6,9,7,6", "9,10,6,7,5", "8,10,6,5,10", "9,10,8,4,9"])
+        
+//        let res = _13_Warming().test(["A B", "B C"], "A B C D E")
+        
+//        let res = _14_MessageSorted().test(4, "rolling3 stone4 like1 a2")
+//        let res1 = _14_MessageSorted().test(8, "Lqifts6 and7  Exchanging1 all2 precious5 things8 kinds3 of4")
+//        let res = _15_StringBrief().test("aabbcc")
+//        let res1 = _15_StringBrief().test("bAaAcBb")
+//        let res = _16_MatrixScaner().test("3 3", ["1 0 0","0 1 0","0 0 1"])
+//        let res1 = _16_MatrixScaner().test("5 3", ["-1 0 1","0 0 0","-1 0 0","1 -0 0","0 0 0"])
+//        print(res)
+        
+//        let res = _19_AlibabaFindGold_2().test("1,1,1,1,3,3,3,6,6,8")
+//        let res1 = _19_AlibabaFindGold_2().test("2,2,2,2")
+        
+//        _20_AlibabaFindGold_3().test("6,3,1,6", "3")  // 0
+//        _20_AlibabaFindGold_3().test("5,6,7,5,6,7", "2")  // -1
+//        _20_AlibabaFindGold_3().test("5,6,7,5,6,7,5,6,5,6", "2")  // -1
+        
+//        let res = _2251_FullBloomFlowers().fullBloomFlowers([[1,6],[3,7],[9,12],[4,13]], [2,3,7,11])
+//        let res1 = _2251_FullBloomFlowers().fullBloomFlowers([[1,10],[3,3]], [3,3,2])
+        
+//        let res = _739_DailyTemperatures().dailyTemperatures([73,74,75,71,69,72,76,73])
+//        let res1 = _739_DailyTemperatures().dailyTemperatures([30,40,50,60])
+        
+//        let res = _496_NextGreaterElement().nextGreaterElement([4,1,2], [1,3,4,1])
+        
+//        let res = _503_NextGreaterElements().nextGreaterElements([1,2,1])
+        
+//        let res = _84_LargestRectangleArea().largestRectangleArea([2,4])
+        
+        
+//        let res = _2866_MaximumSumOfHeights().maximumSumOfHeights([5,3,4,1,1])
+//        let res = _2815_MaxSum().maxSum([51,71,17,24,42])
+        
+//        let res = _24_FindSameNumInTwoArray().test("5,3,6,-8,0,11", "2,8,8,8,-1,15")
+//        let res1 = _24_FindSameNumInTwoArray().test("5,8,11,3,6,8,8,-1,11,2,11,11", "11,2,11,8,6,8,8,-1,8,15,3,-9,11")
+        
+//        let res = _25_Softward().test("3", ["737270", "737272", "737288"])
+        
+//        let res = _27_DataCategory().test("3 4 256 257 258 259 260 261 262 263 264 265")
+//        let res1 = _27_DataCategory().test("1 4 256 257 258 259 260 261 262 263 264 265")
+        
+        // 结果227
+//        _2136_EarliestFullBloom().earliestFullBloom([3,11,29,4,4,26,26,12,13,10,30,19,27,2,10], [10,13,22,17,18,15,21,11,24,14,18,23,1,30,6])
+        
+//        _28_RecoveryNumber().test("19801211 5")
+//        _28_RecoveryNumber().test("9959969979989991000 6")
+//        _28_RecoveryNumber().test("3456789 7")
+        
+//        _29_AlibabaFindGold_5().test("2,10,-3,-8,40,5", "4")
+//        _HJ_31_SortedWord().test("I am a student")
+//        _HJ_31_SortedWord().test("$bo*y gi!r#l")
+//        let res = _516_DP_LongestPalindromeSubseq().longestPalindromeSubseq("bbbab")
+        
+//        let res = _100088_MaximumTripletValue().maximumTripletValue([12,6,1,2,7])
+//        let res1 = _100088_MaximumTripletValue().maximumTripletValue([1,10,3,4,19])
+        let res2 = _100088_MaximumTripletValue().maximumTripletValue([10,13,6,2])
+//        let res3 = _100088_MaximumTripletValue().maximumTripletValue([6,14,20,19,19,10,3,15,12,13,8,1,2,15,3])
+        
+        
+//        print(res)
     }
 
 

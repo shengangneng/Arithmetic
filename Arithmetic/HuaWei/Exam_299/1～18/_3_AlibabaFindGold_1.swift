@@ -1,5 +1,5 @@
 //
-//  _3_Alibaba.swift
+//  _3_AlibabaFindGold_1.swift
 //  Arithmetic
 //
 //  Created by shengangneng on 2023/9/26.
@@ -9,7 +9,7 @@ import Foundation
 
 // 2,5,-1,8,6
 // 【花费12分钟】
-class _3_Alibaba {
+class _3_AlibabaFindGold_1 {
     func test(_ input: String) -> Int {
         let array = input.split(separator: ",").compactMap { Int(String($0)) }
         
