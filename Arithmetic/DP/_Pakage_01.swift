@@ -22,8 +22,8 @@ struct _Pakage_01 {
         }
         
         // weight（1到2）
-        for i in 1..<weight.count {
-            for j in 1...size {
+        for i in 1..<weight.count { // 遍历物品
+            for j in 1...size {     // 遍历背包容量
                 if j < weight[i] {
                     dp[i][j] = dp[i - 1][j]
                 } else {

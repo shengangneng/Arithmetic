@@ -16,8 +16,8 @@ struct _Pakage_01_OneDimensial {
     
     func testWeightBagProblem(_ weight: [Int],_ value: [Int],_ size: Int) -> Int {
         var dp = Array(repeating: 0, count: size + 1)
-        for i in 0..<weight.count {
-            for j in (weight[i]...size).reversed() {
+        for i in 0..<weight.count { // 遍历物品
+            for j in (weight[i]...size).reversed() {    // 逆序遍历背包容量
                 dp[j] = max(dp[j], dp[j - weight[i]] + value[i])
             }
         }

@@ -18,14 +18,12 @@ struct _96_NumTrees {
     
     // 时间复杂度O(n^2)，空间复杂度O(n)
     func numTrees(_ n: Int) -> Int {
-        if n <= 2 { return n }
+        if n == 1 { return 1 }
         var dp = Array(repeating: 0, count: n + 1)
         dp[0] = 1
-        dp[1] = 1
-        dp[2] = 2
-        for i in 3...n {
-            for j in 0...i-1 {
-                dp[i] += dp[j] * dp[i - j - 1]
+        for i in 1...n {
+            for j in 1...i {
+                dp[i] += dp[j - 1] * dp[i - j]
             }
         }
         return dp[n]
